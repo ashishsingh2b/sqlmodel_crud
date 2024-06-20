@@ -71,3 +71,4 @@ def delete_task(task:Task):
         session.delete(db_task)
         session.commit()
         return "Task Deleted"
+    
